@@ -16,24 +16,24 @@ This project is an AI-driven chatbot utilizing a **Retrieval-Augmented Generatio
 git clone https://github.com/yourusername/koi-chatbot.git
 cd koi-chatbot
 ```
-###2️⃣ Set Up a Virtual Environment (Optional but Recommended)
+### 2️⃣ Set Up a Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-###4️⃣ Set Up Environment Variables
+### 4️⃣ Set Up Environment Variables
 ```bash
 GOOGLE_API_KEY=your_google_api_key
 ```
 
 ---
 ## 📌 Steps to Run the Project
-### ✅ **Step 1: Load & Store Data**
+## ✅ **Step 1: Load & Store Data**
 ```bash
 python process_data.py
 ```
 
-### ✅ **Step 2: Run the Chatbot API**
+## ✅ **Step 2: Run the Chatbot API**
 ```bash
 python chatbot.py
 ```
